@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+h1, h2 {
+    color: white;
+}
+
+h1:hover {
+    color:aqua;
+    cursor: pointer;
+}
+
+.cor-laranja {
+    color:orange;
+}
+.cor-laranja:hover {
+    color:rgb(238, 202, 134);
+}
+
+.cor-verde{
+    color:green;
+}
+
+.card img{
+    width: 200px;
+    height: 250px;
+    border: 3px solid red;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+footer{
+    padding: 40xp 20xp;
+    background-color: rgb(28, 30, 41);
+    display: flex;
+    align-items: center;
+}
+
+.company-social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-email{
+    display: block;
+    text-align: center;
+}

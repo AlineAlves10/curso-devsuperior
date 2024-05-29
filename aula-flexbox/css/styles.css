@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body{
+    background-color: #BBB;
+}
+.blocos-e-blocos {
+    max-width: 940px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.Bloco {
+    width: 180px;
+    height: 150px;
+    margin: 20px;
+    background-color: #FFF;
+}
+
+.Bloco:hover{
+    border: 10px solid red;
+}
