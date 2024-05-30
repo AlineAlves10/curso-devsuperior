@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --color-red: #F03C42;
+    --color-white: #fff;
+    --color-blue: #222374;
+    --color-gray: #CCC
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1090px;
+}
+
+header{
+    background-color: var(--color-red);
+    color: var(--color-white);
+    height: 100px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cabeça{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1{
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+#espaço{
+    background-color: var(--color-blue);
+    padding: 25px;
+}
+
+#espaço h1{
+    color: var(--color-white);
+    font-size: 32px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+.space{
+    background-color: var(--color-gray);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 10px;
+}
+
+.space h2{
+    padding: 10px 0;
+}
+
+#modalidade{
+    background-color: var(--color-white);
+    padding: 25px 25px 10px 25px;
+}
+
+#modalidade h1{
+    color: var(--color-red);
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.modal{
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    padding: 15px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.modal h2{
+    padding: 10px 0;
+}
+
+#rodape{
+    background-color: black;
+    color: var(--color-white);
+    text-align: center;
+    padding: 40px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#rodape a{
+    text-decoration: none;
+    color: var(--color-white);
+    align-items: center;
+}
+
+#rodape img{
+    align-items: flex-start;
+}
+
+.direi{
+    padding: 30px 0px 0px 0px;
+}
