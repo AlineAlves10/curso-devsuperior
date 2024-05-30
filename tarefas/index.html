@@ -4,69 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DSPlayGames</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="container cabeça">
             <h1>DSPlayGames</h1>
-            <ul>
-                <li><a href="#News">Noticias</a></li>
-                <li><a href="#games">Jogos</a></li>
-                <li><a href="#register">Inscreva-se</a></li>
-            </ul>
+            <div>
+                <a href="#News">Noticias</a>
+                <a href="#games">Jogos</a>
+                <a href="#register">Inscreva-se</a>
+            </div>
         </nav>
     </header>
     <main>
         <section id="News">
-            <h2>Últimas notícias</h2>
-
-            <div>
-                <h3>Smartband: g1 testa 3 pulseiras que são quase um relógio inteligente</h3>
-                <p>Aparelhos da Huawei, Samsung e Xiaomi chegam perto do que um smartwatch oferece por um preço bem menor</p>
-                <hr>
-                <p>26/04/2024</p>
-                <p>As pulseiras inteligentes ou smartbands são a maneira mais econômica de começar a acompanhar informações sobre saúde no dia a dia.
-
-                    Esses produtos oferecem recursos bastante similares aos dos smartwatches (relógios inteligentes), com a vantagem de serem bem mais baratos. Isso ocorre porque eles não têm GPS integrado e usam o celular para acompanhar os trajetos de exercícios ao ar livre. Porém, as smartbands medem a quantidade de exercícios feita pelo seu dono, o número de passos dados, avaliam a qualidade do sono e ainda monitoram batimentos cardíacos e oxigenação do sangue. O Guia de Compras testou três modelos de smartbands que custam na faixa de R$ 350 a R$ 500, com valores consultados nas lojas da internet no meio de abril. Para comparação, um smartwatch sai a partir de R$ 1.400.</p>
-                    <a href="https://g1.globo.com/guia/guia-de-compras/tecnologia/celulares/smartband-g1-testa-3-pulseiras-que-sao-quase-um-relogio-inteligente.ghtml">Ler mais...</a>
+            <div class="container">
+                <h2 class="titulo">Últimas notícias</h2>
+                <div class="card-news">
+                    <div>
+                        <h2>Título principal da notícia</h2>
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h3>
+                        <hr>
+                        <p class="data">26/04/2024</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ....</p>
+                        <strong>
+                            <a href="https://g1.globo.com/guia/guia-de-compras/tecnologia/celulares/smartband-g1-testa-3-pulseiras-que-sao-quase-um-relogio-inteligente.ghtml">Ler mais...</a>
+                        </strong>
+                </div>
+                
             </div>
-
-            <div>
-                <h3>Wi-Fi público tem risco baixo, mas pode permitir golpes; veja dicas para se prevenir</h3>
-                <p>Conexão pode não oferecer recursos de segurança adequado e permitir, por exemplo, que golpistas "espelhem" seu celular e saiba o que você faz.</p>
+            
+            <div class="card-news">
+                <h2>Título principal da notícia</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h3>
                 <hr>
-                <p>26/04/2024</p>
-                <p>Espaços como praças, parques, terminais de ônibus, hotéis, entre outros, podem ter algo em comum: a conexão Wi-Fi pública. Apesar de ser um serviço bem-vindo, esse tipo de conexão pode por em risco a segurança digital, abrindo espaço para golpes. Wi-Fi público é uma rede de internet disponível para qualquer pessoa se conectar. Normalmente, elas não possuem senha e podem ser acessadas por vários usuários ao mesmo tempo. A falta de recursos adequados de segurança pode permitir, por exemplo, a técnica conhecida como "man-in-the-middle" (homem no meio, em tradução livre), explica Marcelo Teixeira de Azevedo, professor de ciência da computação do Mackenzie.</p>
-                <a href="https://g1.globo.com/tecnologia/noticia/2024/04/26/wi-fi-publico-tem-risco-baixo-mas-pode-permitir-golpes-veja-dicas-para-se-prevenir.ghtml">Ler mais...</a>
+                <p class="data">26/04/2024</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam. Harum, in dicta? Perspiciatis nam, facilis nesciunt, expedita esse labore officiis ut ipsam voluptates aperiam laboriosam sequi! Expedita vitae iste quae veniam molestiae ea ad alias maiores. Numquam dolor eaque recusandae eius nihil quibusdam esse nisi asperiores in nulla dicta distinctio aliquid ullam aspernatur ad amet fugit dolorem sapiente veritatis quo, rem a. Molestiae qui sed enim! Laborum doloribus nisi quia dolore obcaecati reiciendis quae, numquam consectetur sed animi temporibus inventore nemo. Asperiores fugit rerum, placeat quas in nobis obcaecati similique quae assumenda culpa ab sit voluptatum molestiae voluptates facilis optio recusandae tempore nihil atque et nesciunt nemo perferendis adipisci harum. Corrupti eum autem veritatis et beatae reiciendis, deleniti corporis, voluptas, eaque ipsa nemo odio? Eligendi sapiente id enim quibusdam, repudiandae optio error! Vitae perspiciatis voluptatem sequi nostrum necessitatibus culpa fuga ...</p>
+                <strong>
+                    <a href="https://g1.globo.com/tecnologia/noticia/2024/04/26/wi-fi-publico-tem-risco-baixo-mas-pode-permitir-golpes-veja-dicas-para-se-prevenir.ghtml">Ler mais...</a>
+                </strong>
             </div>
+        </div>
         </section>
 
         <section id="games">
-            <h2>Jogos</h2>
-            <div>
-                <img src="img/jogo2.png" alt="Jogos e afins">
-                <div>
-                    <h3>Horizon Forbidden West</h3>
-                    <p>De Sony Interactive Entertainment</p>
-                    <p>9.7</p>
+            <div class="container">
+                <h2>Jogos</h2>
+            <div class="teste">
+
+                <div class="card-jogos">
+                    <img src="img/jogo2.png" alt="Jogos e afins">
+                    <div class="card-j-inf">
+                        <h3>Horizon Forbidden West</h3>
+                        <p><strong>De</strong> Sony Interactive Entertainment</p>
+                        <h4>9.7</h4>
+                    </div>
+                </div>
+
+                <div class="card-jogos">
+                    <img src="img/jogo2.png" alt="Jogos e afins">
+                    <div class="card-j-inf">
+                        <h3>Horizon Forbidden West</h3>
+                        <p><strong>De</strong> Sony Interactive Entertainment</p>
+                        <h4>9.7</h4>
+                    </div>
+                </div>
+                <div class="card-jogos">
+                    <img src="img/jogo2.png" alt="Jogos e afins">
+                    <div class="card-j-inf">
+                        <h3>Horizon Forbidden West</h3>
+                        <p><strong>De</strong> Sony Interactive Entertainment</p>
+                        <h4>9.7</h4>
+                    </div>
                 </div>
             </div>
-            <div>
-                <img src="img/jogo2.png" alt="Jogos e afins">
-                <div>
-                    <h3>Horizon Forbidden West</h3>
-                    <p>De Sony Interactive Entertainment</p>
-                    <p>9.7</p>
-                </div>
             </div>
-            <div>
-                <img src="img/jogo2.png" alt="Jogos e afins">
-                <div>
-                    <h3>Horizon Forbidden West</h3>
-                    <p>De Sony Interactive Entertainment</p>
-                    <p>9.7</p>
-                </div>
-            </div>
+            
         </section>
 
         <section id="register">
