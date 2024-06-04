@@ -44,14 +44,14 @@
 
 .container{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 
 .title-news{
     color: var(--cinza);
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
     padding-top: 40px;
 }
@@ -66,25 +66,31 @@
 
 .card-news h2{
     color: var(--verde);
-    font-size: 24px;
+    font-size: 16px;
     padding-bottom: 10px;
 }
 
 .card-news h3{
     color: var(--cinza);
-}
-
-.data{
-    color: var(--verde);
+    font-size: 12px;
 }
 
 .card-news a{
     text-decoration: none;
     color: var(--rosa);
+    font-size: 14px;
 }
 
 .card-news p{
     padding: 10px 0px 10px 0px;
+    font-size: 10px;
+    text-align: justify;
+    color: var(--cinzab);
+}
+
+.data{
+    color: var(--verde);
+    font-size: 10px;
 }
 
 
@@ -160,6 +166,7 @@
     color: var(--cinza);
     padding: 10px;
     text-align: center;
+    font-size: 24px;
 }
 
 .container-inscricao{
@@ -215,7 +222,7 @@ form input::placeholder{
 
 .bottom-inscricao{
     display: flex;
-    flex-direction: initial;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -230,7 +237,6 @@ form input::placeholder{
     color: var(--branco);
     font-size: 18px;
     font-weight: bold;
-    margin: 0px 40px 0px 0px;
 }
 
 #bottons2{
@@ -258,3 +264,41 @@ footer p{
     padding: 30px;
     text-align: center;
 }
+
+@media(min-width: 760px){
+.centralizando{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-inscricao{
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottons{
+    margin: 0px 40px 0px 0px;
+}
+.title-news{
+    font-size: 36px;
+}
+.card-news h2{
+    font-size: 24px;
+}
+
+.card-news h3, a{
+    font-size: 16px;
+}
+
+.card-news p, h4{
+    font-size: 12px;
+}
+
+.tittle-register{
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+}
+
