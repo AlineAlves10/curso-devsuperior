@@ -2,7 +2,8 @@
 
 :root{
     --verde: #38AF90;
-    --cinza: #797979;
+    --cinza: #797979; 
+    --cinzab: #383838;
     --rosa: #DD7E92;
     --cinzac: #F0F0F0;
     --branco: #fff;
@@ -15,7 +16,7 @@
     margin: 0px;
 }
 
-header{
+.nav-container{
     background-color: var(--verde);
     height: 90px;
     color: var(--branco);
@@ -24,14 +25,21 @@ header{
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.753);
 }
 
+.tittle-nav{
+    padding-left: 5px;
+}
+
 .cabeça{
     display: flex;
     justify-content: space-between;
 }
 
-header a{
+.menu-nav a{
     color: #fff;
     text-decoration: none;
+    padding: 6px 10px;
+    float: left;
+    
 }
 
 .container{
@@ -40,12 +48,12 @@ header a{
     margin: 0 auto;
 }
 
-.titulo{
+
+.title-news{
     color: var(--cinza);
     font-size: 36px;
     text-align: center;
-    padding: 20px;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .card-news{
@@ -79,56 +87,174 @@ header a{
     padding: 10px 0px 10px 0px;
 }
 
+
 #games{
     background-color: var(--cinzac);
-    padding: 60px 0px;
+    padding: 30px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 }
-#games h2{
+
+.tittle-games{
     color: var(--verde);
-    font-size: 36px;
     text-align: center;
-    padding-bottom: 30px;
-}
-.card-jogos img{
-    border-radius: 7px 7px 0px 0px;
-    width: 300px;
-    height: 169px;
-    display: inline-flex;
+    padding: 20px;
+    font-size: 2rem;
+    display: flex;
     justify-content: center;
 }
 
 .card-jogos{
     background-color: var(--branco);
-    width: 300px;
     height: 326px;
-    display: inline-flex;
-    flex-direction: column;
-    border-radius: 7px;
+    width: 300px;
     margin: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363);
-    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.349);
     text-align: center;
 }
 
-.card-j-inf h3{
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card-jogos img{
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-jogos h3{
     color: var(--cinza);
-    padding: 30px 0px 0px 0px;
-}
-.card-j-inf strong{
-    color: var(--verde);
-}
-
-.card-j-inf p{
-    font-size: 14px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
 }
 
-.card-j-inf h4{
+.card-jogos h4{
     color: var(--verde);
     font-size: 36px;
-    text-align: center;
-    padding: 20px;
+    padding-top: 10px;
+}
+
+.card-jogos p{
+    font-size: 14px;
+    color: var(--cinza);
+}
+
+.card-jogos strong{
+    color: var(--verde);
+}
+/* justify-content: space-between; */
+
+#register{
+    background-color: var(--branco);
+    padding: 30px;
 }
 
 
-/* justify-content: space-between; */
+.tittle-register{
+    color: var(--cinza);
+    padding: 10px;
+    text-align: center;
+}
+
+.container-inscricao{
+    background-color: var(--cinzac);
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    color: var(--cinza);
+    font-size: 16px;
+    box-shadow: -2px 1px 8px rgba(0, 0, 0, 0.329);
+    max-width: 790px;
+    
+}
+
+
+#ctrl-name, #ctrl-email{
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+    font-size: 16px;
+    border: 1px solid var(--cinza);
+    border-radius: 5px;
+}
+
+.teste-nome{
+    padding: 10px 0px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+form input::placeholder{
+    color: var(--cinza);
+}
+
+#ctrl-pre-1, #ctrl-pre-2, #ctrl-pre-3{
+    width: 20px;
+    height: 20px;
+}
+
+.check-inscricao{
+    padding: 20px 0;
+}
+
+#ctrl-news{
+    height: 23px;
+    width: 23px;
+}
+
+.bottom-inscricao{
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+}
+
+#bottons{
+    background-color: var(--rosa);
+    height: 67px;
+    width: 244px;
+    margin: 20px 0px;
+    border: 0;
+    border-radius: 5px;
+    color: var(--branco);
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0px 40px 0px 0px;
+}
+
+#bottons2{
+    background-color: var(--branco);
+    height: 67px;
+    width: 244px;
+    border: 2px solid var(--rosa);
+    border-radius: 5px;
+    color: var(--rosa);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--cinzab);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+footer p{
+    padding: 30px;
+    text-align: center;
+}
